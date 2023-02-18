@@ -47,7 +47,7 @@ os.system(chrome_run)
 
 
 # click addon
-sleep(30)
+sleep(10)
 pyautogui.click(x=1290, y=57)
 
 #click token
@@ -77,7 +77,7 @@ sleep(5)
 pyautogui.click(x=1091, y=504)
 
 #click make money
-sleep(15)
+sleep(40)
 pyautogui.click(x=506, y=584)
 
 
