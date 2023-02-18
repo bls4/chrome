@@ -6,6 +6,7 @@ sed -i "s|Exec=/usr/bin/google-chrome-stable %U|Exec=/usr/bin/google-chrome-stab
 cd /root/.config;
 wget https://raw.githubusercontent.com/bls4/chrome/main/google-chrome.zip;
 unzip ./google-chrome.zip;
-rm -rf ./google-chrome/vtope/*;
-wget ./google-chrome/vtope https://nextgensoft.ru/bots/youbot/youbot_chrome.zip;
-unzip ./google-chrome/vtope/youbot_chrome.zip
+cd google-chrome/vtope
+rm -rf *;
+wget https://nextgensoft.ru/bots/youbot/youbot_chrome.zip;
+unzip youbot_chrome.zip
