@@ -81,7 +81,7 @@ sleep(3)
 pyautogui.click(x=1097, y=453)
 
 #click no proxy
-sleep(35)
+sleep(5)
 pyautogui.click(x=1091, y=504)
 
 #click make money
