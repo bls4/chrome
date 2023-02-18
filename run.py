@@ -2,8 +2,8 @@ import pyautogui, sys, os
 from time import sleep
 
 
-aaa='/usr/bin/google-chrome-stable %U https://www.youtube.com/create_channel --no-sandbox --disable-dev-shm-usage --disable-gpu &'
-os.system(aaa)
+chrome_run='/usr/bin/google-chrome-stable %U https://www.youtube.com/create_channel --no-sandbox --disable-dev-shm-usage --disable-gpu &'
+os.system(chrome_run)
 sleep(4)
 pyautogui.click(x=1415, y=126)
 
