@@ -53,6 +53,9 @@ pyautogui.click(x=1130, y=249)
 sleep(10)
 pyautogui.click(x=1018, y=752)
 
+sleep(5)
+chrome_run='/usr/bin/google-chrome-stable %U https://colab.research.google.com/drive/1RvLXRHoIT__tU8kPvZuPR4SmfswZWk3O --no-sandbox --disable-dev-shm-usage --disable-gpu &'
+os.system(chrome_run)
 
 # click addon
 sleep(20)
@@ -88,8 +91,4 @@ pyautogui.click(x=1091, y=504)
 sleep(15)
 pyautogui.click(x=506, y=584)
 
-sleep(5)
- 
-chrome_run='/usr/bin/google-chrome-stable %U https://colab.research.google.com/drive/1RvLXRHoIT__tU8kPvZuPR4SmfswZWk3O --no-sandbox --disable-dev-shm-usage --disable-gpu &'
-os.system(chrome_run)
 
