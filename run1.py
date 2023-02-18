@@ -42,7 +42,7 @@ sleep(4)
 pyautogui.click(x=722, y=630)
 
 #click avatar
-sleep(40)
+sleep(30)
 pyautogui.click(x=1376, y=133)
 
 #click Create channel
@@ -58,7 +58,7 @@ chrome_run='/usr/bin/google-chrome-stable %U https://colab.research.google.com/d
 os.system(chrome_run)
 
 # click addon
-sleep(20)
+sleep(10)
 pyautogui.click(x=1290, y=57)
 
 #click token
@@ -88,7 +88,7 @@ sleep(5)
 pyautogui.click(x=1091, y=504)
 
 #click make money
-sleep(15)
+sleep(40)
 pyautogui.click(x=506, y=584)
 
 
